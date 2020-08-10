@@ -27,8 +27,6 @@ const Formulario = ({guardarGasto, guardarCrearGasto}) => {
       id: shortid.generate()
     }
 
-    console.log(gasto);
-
     // Pasar el gasto al componente principal
     guardarGasto(gasto);
     guardarCrearGasto(true);
